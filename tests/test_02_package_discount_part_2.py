@@ -16,9 +16,9 @@ from io import StringIO
 import sys, os
 
 import sys, os
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../../src')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
 
-from src.main import package_discount_part_2
+from srcmain import package_discount_part_2
 
 class TestPackageDiscountPart2(unittest.TestCase):
     """Test package_discount_part_2() by mocking input() and capturing printed output."""

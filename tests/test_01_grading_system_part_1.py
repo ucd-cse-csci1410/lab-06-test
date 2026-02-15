@@ -18,7 +18,7 @@ from unittest.mock import patch
 from io import StringIO
 
 import sys, os
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../../src')))
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
 
 from src.main import grading_system_part_1  
 
